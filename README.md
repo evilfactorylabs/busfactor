@@ -41,10 +41,10 @@ public nya (ECDSA) ada di vault dan memiliki nama pengguna `evil` dengan grup wh
 
 yang masing-masing memiliki alamat IP:
 
-- public: 192.46.229.118, private: 10.0.0.1, fd42:42:42::1 (sin1)
-- public: 192.46.225.58, private: 10.0.0.2, fd42:42:42::2 (sin2)
+- public: 192.46.229.118, private: 100.106.52.26 (dita)
+- public: 192.46.225.58, private: 100.87.234.49 (resly)
 
-yang mana hanya bisa diakses (SSH) melalui jaringan Wireguard yang kredensialnya sudah ada di vault. jika dalam suatu
+yang mana hanya bisa diakses (SSH) melalui jaringan Tailscale yang kredensialnya sudah ada di vault. jika dalam suatu
 kondisi tidak bisa membuat koneksi SSH, bisa akses via LISH yang kredensial terkait Linode sudah ada di vault juga.
 
 ## Domain
@@ -57,7 +57,7 @@ ada 3 alamat domain yang dikelola oleh evilfactorylabs:
 - edgy.network, payung untuk projek-projek terkait infra
 
 yang mana didaftarkan melalui registry Namecheap. khusus untuk evilfactory.id, registry yang digunakan
-adalah Cloudkilat
+adalah Cloudkilat. Untuk terkait DNS, bisa cek repository [faultable/dns](https://github.com/faultable/dns)
 
 ## Internet accounts
 
@@ -80,3 +80,4 @@ Yang menggunakan nama pengguna `@evilfactorylabs`.
 ## Changelog
 
 - 14 februari 2021, membuat rancangan dokumen pertama. mungkin ini bisa disimpan di Handbook
+- 14 maret 2021, nambahin dns dan ganti IP privat
